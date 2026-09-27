@@ -1,0 +1,31 @@
+# --- Node / frontend ---
+node_modules/
+dist/
+build/
+.next/
+*.log
+npm-debug.log*
+
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Env / secrets (NEVER commit) ---
+.env
+.env.*
+*.local
+secrets.json
+
+# --- DB / data dumps ---
+*.sqlite
+*.db
+pgdata/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
